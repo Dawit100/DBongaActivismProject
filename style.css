@@ -1,0 +1,56 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: tan;
+}
+h1{
+  color: red;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 25px;
+  border: 2px solid black;
+  margin: 10px;
+  padding: 10px;
+}
+h4{
+  text-align: center;
+  color: blue;
+}
+.button1{
+  display: flex;
+  justify-items: center;
+  
+}
+.header{
+display: flex;
+  justify-content: space-around; 
+  align-items: center;
+  padding: 10px;
+  background-color: black ;
+  color: white;
+  
+}
+
+.image_container{
+  text-align: center;
+  width: 200;
+  height: 100;
+ 
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+
+}
